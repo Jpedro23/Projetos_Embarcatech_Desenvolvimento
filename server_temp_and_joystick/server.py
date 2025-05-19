@@ -11,6 +11,8 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 # Armazena a última mensagem de temperatura (evita sobrescrever lista)
 mensagem_temperatura = None
 
+#update
+
 # Rota principal que serve a página HTML
 @app.route('/')
 def index():
